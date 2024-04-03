@@ -1,0 +1,14 @@
+# Ignore artifacts:
+package-lock.json
+*ignore
+
+# dotfile
+.env*
+
+# markdown
+*.md
+
+# production
+/build
+
+

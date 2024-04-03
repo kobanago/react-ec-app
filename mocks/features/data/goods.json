@@ -1,0 +1,130 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "name": "ミディアムスカート",
+      "price": 3000,
+      "label": "スカート",
+      "sex": "レディース",
+      "src": "/src/assets/goods/medium_skirt.png",
+      "created_at": 1707623764647
+    },
+    {
+      "id": 2,
+      "name": "ワイドパンツ",
+      "price": 2000,
+      "label": "パンツ",
+      "sex": "",
+      "src": "/src/assets/goods/wide pants.png",
+      "created_at": 1707623852027
+    },
+    {
+      "id": 3,
+      "name": "ライダースジャケット",
+      "price": 8000,
+      "label": "アウター",
+      "sex": "",
+      "src": "/src/assets/goods/riders_jacket.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 4,
+      "name": "Tシャツ",
+      "price": 2000,
+      "label": "トップス",
+      "sex": "",
+      "src": "/src/assets/goods/tshirt.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 5,
+      "name": "スニーカー",
+      "price": 2000,
+      "label": "シューズ",
+      "sex": "",
+      "src": "/src/assets/goods/sneaker_blue.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 6,
+      "name": "サウナハット",
+      "price": 2000,
+      "label": "キャップ",
+      "sex": "",
+      "src": "/src/assets/goods/sauna_hat.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 7,
+      "name": "レディーススジャケット",
+      "price": 6000,
+      "label": "アウター",
+      "sex": "レディース",
+      "src": "/src/assets/goods/ladies_jacket.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 8,
+      "name": "フライトスジャケット",
+      "price": 6000,
+      "label": "アウター",
+      "sex": "",
+      "src": "/src/assets/goods/flight_jacket.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 9,
+      "name": "ブーツ",
+      "price": 2000,
+      "label": "シューズ",
+      "sex": "",
+      "src": "/src/assets/goods/boots.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 9,
+      "name": "革靴",
+      "price": 2000,
+      "label": "シューズ",
+      "sex": "メンズ",
+      "src": "/src/assets/goods/kawagutsu.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 10,
+      "name": "カットソー",
+      "price": 2000,
+      "label": "トップス",
+      "sex": "メンズ",
+      "src": "/src/assets/goods/cutsew.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 11,
+      "name": "チノパン",
+      "price": 2000,
+      "label": "パンツ",
+      "sex": "",
+      "src": "/src/assets/goods/chinopan.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 12,
+      "name": "フォーマルパンツ",
+      "price": 2000,
+      "label": "パンツ",
+      "sex": "メンズ",
+      "src": "/src/assets/goods/pants_black.png",
+      "created_at": 1707623862520
+    },
+    {
+      "id": 13,
+      "name": "ハーフパンツ",
+      "price": 2000,
+      "label": "パンツ",
+      "sex": "",
+      "src": "/src/assets/goods/half_pants.png",
+      "created_at": 1707623862520
+    }
+  ]
+}

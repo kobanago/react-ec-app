@@ -1,0 +1,11 @@
+{
+  "menu": [
+    { "label": "商品登録", "class": "i-material-symbols-add-circle-rounded w-5 h-5" },
+    {
+      "label": "注文履歴",
+      "class": "i-streamline-interface-time-rewind-back-return-clock-timer-countdown w-5 h-5"
+    },
+    { "label": "プロフィール", "class": "i-material-symbols-person w-5 h-5" },
+    { "label": "ログアウト", "class": "i-material-symbols-logout-rounded w-5 h-5" }
+  ]
+}
