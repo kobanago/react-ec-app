@@ -1,9 +1,9 @@
 import { withThemeByDataAttribute } from '@storybook/addon-themes';
+import { withThemeByClassName } from '@storybook/addon-themes';
 import type { Preview } from '@storybook/react';
 import { initialize, mswLoader } from 'msw-storybook-addon';
 import { handlers } from '../mocks/handlers';
-
-import { withThemeByClassName } from '@storybook/addon-themes';
+import '../src/index.css';
 
 // Initialize MSW
 initialize();
