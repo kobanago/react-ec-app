@@ -1,5 +1,9 @@
+import { MY_MENU } from '@/const';
+import store from '@/stores';
 import type { Meta, StoryObj } from '@storybook/react';
 import { goods } from 'mocks/features/data/goods.json';
+import type { ReactNode } from 'react';
+import { Provider } from 'react-redux';
 import { List } from '.';
 
 const meta = {
@@ -14,14 +18,21 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const NormalList: Story = {
-  args: {
-    list: goods,
-  },
+const MockStore = ({ children }: { children: ReactNode }) => {
+  return <Provider store={store}>{children}</Provider>;
 };
 
-export const NoDataList: Story = {
-  args: {
-    list: [],
-  },
+export const GoodsList: Story = {
+  args: { list: goods },
+  decorators: [(story: () => ReactNode) => <MockStore>{story()}</MockStore>],
+};
+
+export const MenuList: Story = {
+  args: { list: MY_MENU },
+  decorators: [(story: () => ReactNode) => <MockStore>{story()}</MockStore>],
+};
+
+export const ListNoItem: Story = {
+  args: { list: [] },
+  decorators: [(story: () => ReactNode) => <MockStore>{story()}</MockStore>],
 };
