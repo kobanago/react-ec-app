@@ -14,7 +14,8 @@
       "style": {
         "useNamingConvention": "off",
         "noDefaultExport": "off",
-        "noNonNullAssertion": "off"
+        "noNonNullAssertion": "off",
+        "useBlockStatements": "off"
       },
       "complexity": {
         "noUselessLoneBlockStatements": "off",
