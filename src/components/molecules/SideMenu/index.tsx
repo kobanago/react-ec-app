@@ -12,7 +12,7 @@ export type SideMenuProps = {
 };
 
 export const SideMenu: FC<SideMenuProps> = forwardRef((props, ref) => {
-  const normal = 'bg-gray-50 fixed left-0 shadow-lg p-1.5';
+  const normal = 'bg-gray-50 fixed left-0 shadow-lg p-1.5 z-20';
   const dark = 'dark:bg-gray-800 dark:text-white dark:shadow-white';
   const style = `${normal} ${dark}`;
   const [isListDispaly, setIsListDisplay] = useState(false);
