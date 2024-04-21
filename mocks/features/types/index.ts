@@ -4,7 +4,8 @@ export type GoodsType = {
   price: number;
   label: string;
   sex: string;
-  src: string;
+  imgName: string;
+  imgLen: number;
   size: string[];
   stock: number[];
   created_at: number;

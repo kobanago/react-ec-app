@@ -10,11 +10,15 @@ export const Card: FC<CardProps> = ({ item }) => {
     'max-w-sm rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 overflow-hidden bg-white hover:bg-sky-100 hover:text-sky-900 border-b border-gray-200 transition-all duration-300 ease-in-out cursor-pointer';
   const dark =
     'dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white dark:border-gray-800 dark:shadow-white';
-
   const style = `${normal} ${dark}`;
+
   return (
     <div className={style} onMouseDown={() => {}}>
-      <img className='w-80 h-80 object-contain' src={item.src} alt={item.name} />
+      <img
+        className='w-80 h-80 object-contain'
+        src={`/src/assets/goods/${item.imgName}_1.png`}
+        alt={item.name}
+      />
       <div className='px-6 py-4'>
         <div className='font-semibold text-gray-600 dark:text-white text-xl mb-2'>{item.name}</div>
         <p className='text-gray-500 dark:text-white text-base'>
